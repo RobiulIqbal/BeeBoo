@@ -5,16 +5,36 @@ import {
   Text,
   TouchableOpacity,
   View,
+  Image,
 } from 'react-native';
-import ActivitiesScreen from '../../components/ActivitiesScreen';
-import Feelings from '../../components/FeelingsScreen';
-import FoodScreen from '../../components/FoodScreen';
-import GeneralScreen from '../../components/GeneralScreen';
-import NumbersScreen from '../../components/NumbersScreen';
-import PeopleScreen from '../../components/PeopleScreen';
-import SchoolScreen from '../../components/SchoolScreen';
-import {WARNA_TAB} from '../../utils/warna';
-import {IconActivities} from '../../assets/Images';
+import {
+  ActivitiesScreen,
+  FeelingsScreen,
+  FoodScreen,
+  GeneralScreen,
+  NumbersScreen,
+  PeopleScreen,
+  SchoolScreen,
+} from '../Screen';
+import {
+  WARNA_CARD1,
+  WARNA_CARD2,
+  WARNA_CARD3,
+  WARNA_CARD4,
+  WARNA_CARD5,
+  WARNA_CARD6,
+  WARNA_CARD7,
+  WARNA_TAB,
+} from '../../utils/warna';
+import {
+  IconActivities,
+  IconFeelings,
+  IconFoods,
+  IconGeneral,
+  IconNumbers,
+  IconPeople,
+  IconSchool,
+} from '../../assets/Images';
 
 const TabBox = (props) => {
   const onNavigate = () => {
@@ -24,7 +44,12 @@ const TabBox = (props) => {
     <TouchableOpacity
       onPress={onNavigate}
       style={[styles.tabBoxContainer, {backgroundColor: props.color}]}>
-      <Text>{props.title}</Text>
+      <Image
+        source={props.image}
+        style={{width: '50%', height: '50%'}}
+        resizeMode={'cover'}
+      />
+      <Text style={{marginTop: 5, color: 'white'}}>{props.title}</Text>
     </TouchableOpacity>
   );
 };
@@ -37,7 +62,7 @@ export default function Home() {
       <View style={styles.contentContainer}>
         {/* conditional rendering screennya disini */}
         {screen === 'Activities' && <ActivitiesScreen />}
-        {screen === 'Feelings' && <Feelings />}
+        {screen === 'Feelings' && <FeelingsScreen />}
         {screen === 'Foods' && <FoodScreen />}
         {screen === 'General' && <GeneralScreen />}
         {screen === 'Numbers' && <NumbersScreen />}
@@ -47,38 +72,44 @@ export default function Home() {
       <View style={styles.tabContainer}>
         <ScrollView horizontal={true}>
           <TabBox
-            color="purple"
-            image="IconActivities"
+            color={WARNA_CARD1}
+            image={IconActivities}
             title="Activities"
             onPress={(title) => setScreen(title)}
           />
           <TabBox
-            color="green"
+            color={WARNA_CARD2}
+            image={IconFeelings}
             title="Feelings"
             onPress={(title) => setScreen(title)}
           />
           <TabBox
-            color="yellow"
+            color={WARNA_CARD3}
+            image={IconFoods}
             title="Foods"
             onPress={(title) => setScreen(title)}
           />
           <TabBox
-            color="purple"
+            color={WARNA_CARD4}
+            image={IconGeneral}
             title="General"
             onPress={(title) => setScreen(title)}
           />
           <TabBox
-            color="purple"
+            color={WARNA_CARD5}
+            image={IconNumbers}
             title="Numbers"
             onPress={(title) => setScreen(title)}
           />
           <TabBox
-            color="purple"
+            color={WARNA_CARD6}
+            image={IconPeople}
             title="People"
             onPress={(title) => setScreen(title)}
           />
           <TabBox
-            color="purple"
+            color={WARNA_CARD7}
+            image={IconSchool}
             title="School"
             onPress={(title) => setScreen(title)}
           />
