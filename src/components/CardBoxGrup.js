@@ -1,6 +1,7 @@
 import React from 'react';
 import {StyleSheet, Text, TouchableOpacity, Image} from 'react-native';
 import Tts from 'react-native-tts';
+import {hp, wp} from './responsive';
 
 const CardBoxGrup = (props) => {
   const handleVoice = () => {
@@ -25,8 +26,8 @@ export default CardBoxGrup;
 
 const styles = StyleSheet.create({
   tabCardBoxContainer: {
-    height: 110,
-    width: 120,
+    height: wp(28),
+    width: wp(30),
     marginLeft: 5,
     marginRight: 5,
     marginTop: 7,
