@@ -6,6 +6,7 @@ import {
   TouchableOpacity,
   View,
   Image,
+  Dimensions,
 } from 'react-native';
 import {
   ActivitiesScreen,
@@ -35,6 +36,7 @@ import {
   IconPeople,
   IconSchool,
 } from '../../assets/Images';
+import {hp, wp} from '../../components/responsive';
 
 const TabBox = (props) => {
   const onNavigate = () => {
@@ -46,8 +48,8 @@ const TabBox = (props) => {
       style={[styles.tabBoxContainer, {backgroundColor: props.color}]}>
       <Image
         source={props.image}
-        style={{width: '50%', height: '50%'}}
-        resizeMode={'cover'}
+        style={{width: '60%', height: '60%'}}
+        resizeMode={'contain'}
       />
       <Text style={{marginTop: 5, color: 'white'}}>{props.title}</Text>
     </TouchableOpacity>
@@ -60,14 +62,16 @@ export default function Home() {
   return (
     <View style={styles.container}>
       <View style={styles.contentContainer}>
-        {/* conditional rendering screennya disini */}
-        {screen === 'Activities' && <ActivitiesScreen />}
-        {screen === 'Feelings' && <FeelingsScreen />}
-        {screen === 'Foods' && <FoodScreen />}
-        {screen === 'General' && <GeneralScreen />}
-        {screen === 'Numbers' && <NumbersScreen />}
-        {screen === 'People' && <PeopleScreen />}
-        {screen === 'School' && <SchoolScreen />}
+        <ScrollView>
+          {/* conditional rendering screennya disini */}
+          {screen === 'Activities' && <ActivitiesScreen />}
+          {screen === 'Feelings' && <FeelingsScreen />}
+          {screen === 'Foods' && <FoodScreen />}
+          {screen === 'General' && <GeneralScreen />}
+          {screen === 'Numbers' && <NumbersScreen />}
+          {screen === 'People' && <PeopleScreen />}
+          {screen === 'School' && <SchoolScreen />}
+        </ScrollView>
       </View>
       <View style={styles.tabContainer}>
         <ScrollView horizontal={true}>
@@ -124,22 +128,25 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   contentContainer: {
-    flex: 2,
+    flex: 4,
     flexDirection: 'column',
-    alignItems: 'center',
-    justifyContent: 'center',
-    marginBottom: '70%',
   },
   tabContainer: {
     flex: 1,
     backgroundColor: WARNA_TAB,
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    bottom: 0,
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.25,
+    shadowRadius: 3.84,
+
+    elevation: 9,
   },
   tabBoxContainer: {
-    height: 100,
-    width: 100,
+    height: wp(28),
+    width: wp(30),
     marginLeft: 5,
     marginRight: 5,
     marginTop: 7,

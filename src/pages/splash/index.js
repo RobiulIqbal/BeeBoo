@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react';
 import {Image, ImageBackground, StyleSheet, Text, View} from 'react-native';
 import {Logo} from '../../assets';
-import {WARNA_DASAR} from '../../utils/warna';
+import {WARNA_CARD1, WARNA_DASAR, WARNA_CARD2} from '../../utils/warna';
 
 const Splash = ({navigation}) => {
   useEffect(() => {
@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
     alignContent: 'center',
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: WARNA_DASAR,
+    backgroundColor: WARNA_CARD2,
   },
   logo: {
     width: 220,
