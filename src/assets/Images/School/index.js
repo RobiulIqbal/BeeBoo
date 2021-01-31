@@ -10,6 +10,7 @@ import NamMath from '../School/mathematics.png';
 import NamLiter from '../School/literature.png';
 import NamQuest from '../School/question.png';
 import NamHomework from '../School/homework.png';
+import NamUnder from '../School/understand.png';
 
 export {
   IconSchool,
@@ -24,4 +25,5 @@ export {
   NamLiter,
   NamQuest,
   NamHomework,
+  NamUnder,
 };

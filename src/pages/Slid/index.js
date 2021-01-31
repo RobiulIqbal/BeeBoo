@@ -12,21 +12,21 @@ const Slidone = ({navigation}) => {
       pages={[
         {
           backgroundColor: WARNA_SLIDE1,
-          image: <Image source={Belajar} style={styles.slide1} />,
-          title: 'Onboarding 1',
-          subtitle: 'Done with React Native Onboarding Swiper',
+          image: <Image source={Belajar} style={styles.slide2} />,
+          title: 'Belajar',
+          subtitle: 'Mulai Belajar dengan Orang Tua Atau Therapist',
         },
         {
           backgroundColor: WARNA_SLIDE2,
           image: <Image source={Jalan} style={styles.slide2} />,
-          title: 'Onboarding 2',
-          subtitle: 'Done with React Native Onboarding Swiper',
+          title: 'PECS',
+          subtitle: 'Picture Exchange Communications',
         },
         {
           backgroundColor: WARNA_SLIDE3,
           image: <Image source={Baca} style={styles.slide3} />,
-          title: 'Onboarding 3',
-          subtitle: 'Done with React Native Onboarding Swiper',
+          title: 'Berbasis Mobile',
+          subtitle: 'Tanpa Perlu Membawa Buku Untuk Berkomunikasi',
         },
       ]}
     />

@@ -1,0 +1,346 @@
+{
+		"type": "card",
+		"title": "Bantuan",
+		"slug": "help",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu bisa membantu saya?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah ada yang bisa saya bantu?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Lapar",
+		"slug": "hungry",
+		"parents": [
+			"general",
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya lapar!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu lapar?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bisakah kamu menyiapkan makanan untuk saya?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Haus",
+		"slug": "thirsty",
+		"parents": [
+			"general",
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya haus!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu haus?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bisakah kamu memberikan saya air?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin sesuatu untuk di minum!"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Toilet",
+		"slug": "toilet",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya perlu pergi ke toilet!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bisakah kamu membawa saya ke toilet"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin buang air besar"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin buang air kecil"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Apa?",
+		"slug": "what",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Apa maksudmu?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apa artinya itu?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ya",
+		"slug": "yes",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ya!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Oke"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya setuju!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Benar"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Tidak",
+		"slug": "no",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tidak!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Negatif"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya tidak setuju!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Salah"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Halo",
+		"slug": "hello",
+		"parents": [
+			"general"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Tidur",
+		"slug": "sleep",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya butuh tidur"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin tidur"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Mandi",
+		"slug": "bath",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin mandi"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tolong bantu saya mengambil shower"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Pagi",
+		"slug": "morning",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Selamat pagi"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Di pagi hari"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Malam",
+		"slug": "night",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Selamat malam"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Di malam hari"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Mendengarkan",
+		"slug": "listen",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Dengarkan saya"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya menyimak apa yang anda katakan"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Keluar",
+		"slug": "outside",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin pergi keluar"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bisakah kamu membawa saya pergi keluar?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Pakaian",
+		"slug": "clothes",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Memakai pakaian"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Pakaianku kotor"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bisakah kamu memberikan pakaian untuk saya pakai?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bisakah kamu membantu saya memakai pakaian?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Rumah",
+		"slug": "home",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin pulang ke rumah"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya cinta rumah saya"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Luka",
+		"slug": "hurt",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya melukai diri saya"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya butuh perban"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ini sakit"
+			}
+		]
+	},

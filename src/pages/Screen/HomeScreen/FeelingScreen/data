@@ -1,0 +1,288 @@
+{
+		"type": "card",
+		"title": "Bahagia",
+		"slug": "happy",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya merasa bahagia"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu merasa bahagia?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Sedih",
+		"slug": "sad",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya merasa sedih"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu merasa sedih?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Lelah",
+		"slug": "exhausted",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya merasa lelah"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu merasa lelah?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Rileks",
+		"slug": "relaxed",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya merasa rileks"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu merasa rileks?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Jatuh cinta",
+		"slug": "inlove",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya sedang jatuh cinta"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu sedang jatuh cinta?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Tertekan",
+		"slug": "stressed",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya merasa tertekan"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu merasa tertekan?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Bersyukur",
+		"slug": "thankful",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya merasa bersyukur"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu merasa bersyukur?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Bingung",
+		"slug": "confused",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya merasa bingung"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu merasa bingung?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Gembira",
+		"slug": "joyful",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya merasa gembira"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu merasa gembira?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Marah",
+		"slug": "angry",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya marah"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu sedang marah?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Pintar",
+		"slug": "smart",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya merasa pintar"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu merasa pintar?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Takut",
+		"slug": "afraid",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya merasa takut"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu merasa takut?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Malu",
+		"slug": "ashamed",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya merasa malu"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu merasa malu?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Kaget",
+		"slug": "shocked",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya kaget"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu kaget?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Sakit",
+		"slug": "sick",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya merasa sakit / tidak enak badan"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu merasa sakit / tidak enak badan?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Frustasi",
+		"slug": "frustrated",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya merasa frustasi"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu merasa frustasi?"
+			}
+		]
+	},

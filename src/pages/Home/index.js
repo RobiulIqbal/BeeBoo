@@ -16,6 +16,7 @@ import {
   NumbersScreen,
   PeopleScreen,
   SchoolScreen,
+  PlaceScreen,
 } from '../Screen';
 import {
   WARNA_CARD1,
@@ -35,6 +36,8 @@ import {
   IconNumbers,
   IconPeople,
   IconSchool,
+  IconPlace,
+  Logo,
 } from '../../assets/Images';
 import {hp, wp} from '../../components/responsive';
 
@@ -51,7 +54,9 @@ const TabBox = (props) => {
         style={{width: '60%', height: '60%'}}
         resizeMode={'contain'}
       />
-      <Text style={{marginTop: 5, color: 'white'}}>{props.title}</Text>
+      <Text style={{marginTop: 5, color: 'white', fontWeight: 'bold '}}>
+        {props.title}
+      </Text>
     </TouchableOpacity>
   );
 };
@@ -68,13 +73,14 @@ export default function Home() {
           {screen === 'Feelings' && <FeelingsScreen />}
           {screen === 'Foods' && <FoodScreen />}
           {screen === 'General' && <GeneralScreen />}
+          {screen === 'Place' && <PlaceScreen />}
           {screen === 'Numbers' && <NumbersScreen />}
           {screen === 'People' && <PeopleScreen />}
           {screen === 'School' && <SchoolScreen />}
         </ScrollView>
       </View>
       <View style={styles.tabContainer}>
-        <ScrollView horizontal={true}>
+        <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>
           <TabBox
             color={WARNA_CARD1}
             image={IconActivities}
@@ -97,6 +103,12 @@ export default function Home() {
             color={WARNA_CARD4}
             image={IconGeneral}
             title="General"
+            onPress={(title) => setScreen(title)}
+          />
+          <TabBox
+            color={WARNA_CARD1}
+            image={IconPlace}
+            title="Place"
             onPress={(title) => setScreen(title)}
           />
           <TabBox
@@ -137,16 +149,16 @@ const styles = StyleSheet.create({
     shadowColor: '#000',
     shadowOffset: {
       width: 0,
-      height: 2,
+      height: 12,
     },
-    shadowOpacity: 0.25,
-    shadowRadius: 3.84,
+    shadowOpacity: 0.58,
+    shadowRadius: 16.0,
 
-    elevation: 9,
+    elevation: 24,
   },
   tabBoxContainer: {
     height: wp(28),
-    width: wp(30),
+    width: wp(32),
     marginLeft: 5,
     marginRight: 5,
     marginTop: 7,

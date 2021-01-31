@@ -1,0 +1,149 @@
+{
+		title: "Buku",
+		voice: "book",
+		image:   ,
+		content: [
+			{
+				image: ,
+				title: "Saya sedang membaca buku saya"
+			},
+			{
+				image: ,
+				title: "Apakah kamu bisa mengembalikan buku saya?"
+			}
+		]
+	},
+	{
+		title: "Buku catatan",
+		voice: "notebook",
+		image:   ,
+		content: [
+			{
+				image: ,
+				title: "Saya sedang mencatat di buku catatan saya"
+			},
+			{
+				image: ,
+				title: "Apakah kamu bisa mengembalikan buku catatan saya?"
+			}
+		]
+	},
+	{
+		title: "Pensil",
+		voice: "pencil",
+		image:   ,
+		content: [
+			{
+				image: ,
+				title: "Saya menulis menggunakan pensil saya"
+			},
+			{
+				image: ,
+				title: "Apakah kamu bisa mengembalikan pensil saya?"
+			}
+		]
+	},
+	{
+		title: "Papan tulis",
+		voice: "blackboard",
+		"parents": [
+			"school"
+		]
+	},
+	{
+		title: "Pelajaran",
+		voice: "lesson",
+		"parents": [
+			"school"
+		]
+	},
+	{
+		title: "Diam",
+		voice: "quiet",
+		image:   ,
+		content: [
+			{
+				image: ,
+				title: "Saya harus diam saat pelajaran"
+			},
+			{
+				image: ,
+				title: "Kamu harus diam saat pelajaran"
+			}
+		]
+	},
+	{
+		title: "Matematika",
+		voice: "mathematics",
+		image:   ,
+		content: [
+			{
+				image: ,
+				title: "Saya suka matematika"
+			},
+			{
+				image: ,
+				title: "Saya ingin mempelajari matematika"
+			}
+		]
+	},
+	{
+		title: "Pelajaran bahasa",
+		voice: "literature",
+		image:   ,
+		content: [
+			{
+				image: ,
+				title: "Saya suka pelajaran bahasa"
+			},
+			{
+				image: ,
+				title: "Saya ingin mempelajari bahasa"
+			}
+		]
+	},
+	{
+		title: "Pertanyaan",
+		voice: "question",
+		image:   ,
+		content: [
+			{
+				image: ,
+				title: "Saya punya sebuah pertanyaan"
+			},
+			{
+				image: ,
+				title: "Apakah saya boleh bertanya?"
+			}
+		]
+	},
+	{
+		title: "Mengerti",
+		voice: "understand",
+		image:   ,
+		content: [
+			{
+				image: ,
+				title: "Saya tidak mengerti"
+			},
+			{
+				image: ,
+				title: "Apakah kamu bisa menjelaskan itu?"
+			}
+		]
+	},
+	{
+		title: "Pekerjaan rumah",
+		voice: "homework",
+		image:   ,
+		content: [
+			{
+				image: ,
+				title: "Saya harus mengerjakan pekerjaan rumah saya"
+			},
+			{
+				image: ,
+				title: "Apakah kamu bisa membantu pekerjaan rumah saya?"
+			}
+		]
+	},

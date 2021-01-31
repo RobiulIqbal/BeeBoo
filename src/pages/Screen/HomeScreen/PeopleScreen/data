@@ -1,0 +1,225 @@
+{
+		"type": "card",
+		"title": "Ibu",
+		"slug": "mother",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				image: Ma,
+				title: "Saya mencintai ibu saya"
+			},
+			{
+				image: Ma,
+				title: "Saya ingin bertemu ibu saya"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ayah",
+		"slug": "father",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				image: Ma,
+				title: "Saya mencintai ayah saya"
+			},
+			{
+				image: Ma,
+				title: "Saya ingin bertemu ayah saya"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Orang tua",
+		"slug": "parents",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				image: Ma,
+				title: "Saya mencintai orang tua saya"
+			},
+			{
+				image: Ma,
+				title: "Saya ingin bertemu orang tua saya"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Kakek-nenek",
+		"slug": "grandparents",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				image: Ma,
+				title: "Saya mencintai kakek-nenek saya"
+			},
+			{
+				image: Ma,
+				title: "Saya ingin bertemu kakek-nenek saya"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Saudara laki-laki",
+		"slug": "brother",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				image: Ma,
+				title: "Saya mencintai saudara laki-laki saya"
+			},
+			{
+				image: Ma,
+				title: "Saya ingin bertemu saudara laki-laki saya"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Saudara perempuan",
+		"slug": "sister",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				image: Ma,
+				title: "Saya mencintai saudara perempuan saya"
+			},
+			{
+				image: Ma,
+				title: "Saya ingin bertemu saudara perempuan saya"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Paman / Om",
+		"slug": "uncle",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				image: Ma,
+				title: "Saya mencintai paman / om saya"
+			},
+			{
+				image: Ma,
+				title: "Saya ingin bertemu paman / om saya"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Bibi / Tante",
+		"slug": "aunt",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				image: Ma,
+				title: "Saya mencintai bibi / tante saya"
+			},
+			{
+				image: Ma,
+				title: "Saya ingin bertemu bibi / tante saya"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Guru",
+		"slug": "teacher",
+		"parents": [
+			"people",
+			"school"
+		],
+		"phrases": [
+			{
+				image: Ma,
+				title: "Saya menyukai guru saya"
+			},
+			{
+				image: Ma,
+				title: "Saya ingin bertemu guru saya"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Terapis",
+		"slug": "therapist",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				image: Ma,
+				title: "Saya menyukai terapis saya"
+			},
+			{
+				image: Ma,
+				title: "Saya ingin bertemu terapis saya"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Dokter",
+		"slug": "doctor",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				image: Ma,
+				title: "Saya menyukai dokter saya"
+			},
+			{
+				image: Ma,
+				title: "Saya ingin bertemu dokter saya"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Teman",
+		"slug": "friends",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				image: Ma,
+				title: "Saya menyukai teman saya"
+			},
+			{
+				image: Ma,
+				title: "saya tidak menyukai teman saya"
+			},
+			{
+				image: Ma,
+				title: "Saya ingin bertemu teman saya"
+			},
+			{
+				image: Ma,
+				title: "Saya ingin berbicara dengan teman saya"
+			}
+		]
+	},

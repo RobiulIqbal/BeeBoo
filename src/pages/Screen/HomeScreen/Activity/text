@@ -1,0 +1,306 @@
+{
+		"type": "card",
+		"title": "Jalan",
+		"slug": "walking",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ayo jalan berkeliling"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bisakah kita jalan?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Olahraga lari",
+		"slug": "running",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya suka olahraga lari"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bisakah kita berolahraga lari?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Berbicara",
+		"slug": "talking",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya suka berbicara"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kita bisa mengobrol bersama?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Membaca",
+		"slug": "reading",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya suka membaca."
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu bisa membantu saya membaca?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Sepak bola",
+		"slug": "football",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya suka bermain sepak bola"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ayo bermain sepak bola"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Bola basket",
+		"slug": "basketball",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya suka bermain bola basket"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ayo bermain bola basket"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Berenang",
+		"slug": "swimming",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya suka berenang"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bisakah kita pergi berenang?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Tenis",
+		"slug": "tennis",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya suka bermain tenis"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kita bisa bermain tenis bersama-sama?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Bersepeda",
+		"slug": "cycling",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya suka bersepeda"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kita bisa bersepeda bersama?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Skating",
+		"slug": "skating",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya suka bermain es/roller skating"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu mau bermain es/roller skating bersama saya?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Jalan-jalan",
+		"slug": "sightseeing",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya suka jalan-jalan"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bisakah kita pergi jalan-jalan bersama?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Video Games",
+		"slug": "videogames",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya suka bermain video games"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bolehkah saya bermain video games?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Merapikan",
+		"slug": "tidying",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya suka merapikan kamar saya"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu bisa membantu saya merapikan kamar saya?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Mainan",
+		"slug": "toys",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya suka bermain dengan mainan saya"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu ingin bermain dengan mainan saya?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Puzzle",
+		"slug": "puzzle",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya suka menyelesaikan puzzles"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu mau menyelesaikan puzzle bersama-sama?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Komik",
+		"slug": "comics",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya suka membaca komik"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu mau membaca komik bersama saya?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Catur",
+		"slug": "chess",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya suka bermain catur"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu mau bermain catur dengan saya?"
+			}
+		]
+	},
