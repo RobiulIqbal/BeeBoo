@@ -11,12 +11,14 @@ import {
 import {
   ActivitiesScreen,
   FeelingsScreen,
-  FoodScreen,
+  BuahScreen,
   GeneralScreen,
   NumbersScreen,
   PeopleScreen,
   SchoolScreen,
   PlaceScreen,
+  MakananScreen,
+  MinumanScreen,
 } from '../Screen';
 import {
   WARNA_CARD1,
@@ -54,7 +56,7 @@ const TabBox = (props) => {
         style={{width: '60%', height: '60%'}}
         resizeMode={'contain'}
       />
-      <Text style={{marginTop: 5, color: 'white', fontWeight: 'bold '}}>
+      <Text style={{marginTop: 5, color: 'white', fontWeight: 'bold'}}>
         {props.title}
       </Text>
     </TouchableOpacity>
@@ -62,21 +64,23 @@ const TabBox = (props) => {
 };
 
 export default function Home() {
-  const [screen, setScreen] = useState('General');
+  const [screen, setScreen] = useState('Aktivitas');
 
   return (
     <View style={styles.container}>
       <View style={styles.contentContainer}>
         <ScrollView>
           {/* conditional rendering screennya disini */}
-          {screen === 'Activities' && <ActivitiesScreen />}
-          {screen === 'Feelings' && <FeelingsScreen />}
-          {screen === 'Foods' && <FoodScreen />}
-          {screen === 'General' && <GeneralScreen />}
-          {screen === 'Place' && <PlaceScreen />}
+          {screen === 'Aktivitas' && <ActivitiesScreen />}
+          {screen === 'Perasaan' && <FeelingsScreen />}
+          {screen === 'Buah' && <BuahScreen />}
+          {screen === 'Umum' && <GeneralScreen />}
+          {screen === 'Tempat' && <PlaceScreen />}
           {screen === 'Numbers' && <NumbersScreen />}
-          {screen === 'People' && <PeopleScreen />}
-          {screen === 'School' && <SchoolScreen />}
+          {screen === 'Orang' && <PeopleScreen />}
+          {screen === 'Sekolah' && <SchoolScreen />}
+          {screen === 'Makanan' && <MakananScreen />}
+          {screen === 'Minuman' && <MinumanScreen />}
         </ScrollView>
       </View>
       <View style={styles.tabContainer}>
@@ -84,31 +88,37 @@ export default function Home() {
           <TabBox
             color={WARNA_CARD1}
             image={IconActivities}
-            title="Activities"
+            title="Aktivitas"
             onPress={(title) => setScreen(title)}
           />
           <TabBox
             color={WARNA_CARD2}
             image={IconFeelings}
-            title="Feelings"
+            title="Perasaan"
             onPress={(title) => setScreen(title)}
           />
           <TabBox
             color={WARNA_CARD3}
             image={IconFoods}
-            title="Foods"
+            title="Buah"
             onPress={(title) => setScreen(title)}
           />
           <TabBox
             color={WARNA_CARD4}
             image={IconGeneral}
-            title="General"
+            title="Umum"
             onPress={(title) => setScreen(title)}
           />
           <TabBox
             color={WARNA_CARD1}
-            image={IconPlace}
-            title="Place"
+            image={IconSchool}
+            title="Tempat"
+            onPress={(title) => setScreen(title)}
+          />
+          <TabBox
+            color={WARNA_CARD3}
+            image={IconFoods}
+            title="Makanan"
             onPress={(title) => setScreen(title)}
           />
           <TabBox
@@ -120,13 +130,19 @@ export default function Home() {
           <TabBox
             color={WARNA_CARD6}
             image={IconPeople}
-            title="People"
+            title="Orang"
             onPress={(title) => setScreen(title)}
           />
           <TabBox
             color={WARNA_CARD7}
             image={IconSchool}
-            title="School"
+            title="Sekolah"
+            onPress={(title) => setScreen(title)}
+          />
+          <TabBox
+            color={WARNA_CARD3}
+            image={IconFoods}
+            title="Minuman"
             onPress={(title) => setScreen(title)}
           />
         </ScrollView>

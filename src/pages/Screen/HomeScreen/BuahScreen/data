@@ -1,0 +1,1292 @@
+{
+		"type": "card",
+		"title": "Apel",
+		"slug": "apple",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				image: ,
+				title: "Saya ingin makan apel"
+			},
+			{
+				image: ,
+				title: "Saya tidak ingin makan apel"
+			},
+			{
+				image: ,
+				title: "Apakah kamu ingin makan apel?"
+			},
+			{
+				image: "like",
+				title: "Saya suka makan apel"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Jeruk",
+		"slug": "orange",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				image: ,
+				title: "Saya ingin makan jeruk"
+			},
+			{
+				image: ,
+				title: "Saya tidak ingin makan jeruk"
+			},
+			{
+				image: ,
+				title: "Apakah kamu ingin makan jeruk?"
+			},
+			{
+				image: "like",
+				title: "Saya suka makan jeruk"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Peralatan",
+		"slug": "utensils",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				image: ,
+				title: "Apakah kamu bisa membantu saya menggunakan peralatan saya?"
+			},
+			{
+				image: ,
+				title: "Apakah kamu bisa memberikan peralatan saya?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Air",
+		"slug": "water",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				image: ,
+				title: "Saya ingin minum air"
+			},
+			{
+				image: ,
+				title: "Saya tidak ingin minum air"
+			},
+			{
+				image: ,
+				title: "Apakah kamu ingin minum air?"
+			},
+			{
+				image: "like",
+				title: "Saya suka minum air"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Tomat",
+		"slug": "tomato",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				image: ,
+				title: "Saya ingin makan tomat"
+			},
+			{
+				image: ,
+				title: "Saya tidak ingin makan tomat"
+			},
+			{
+				image: ,
+				title: "Apakah kamu ingin makan tomat?"
+			},
+			{
+				image: "like",
+				title: "Saya suka makan tomat"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Kentang",
+		"slug": "potato",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				image: ,
+				title: "Saya ingin makan kentang"
+			},
+			{
+				image: ,
+				title: "Saya tidak ingin makan kentang"
+			},
+			{
+				image: ,
+				title: "Apakah kamu ingin makan kentang?"
+			},
+			{
+				image: "like",
+				title: "Saya suka makan kentang"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Steak",
+		"slug": "steak",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				image: ,
+				title: "Saya ingin makan steak"
+			},
+			{
+				image: ,
+				title: "Saya tidak ingin makan steak"
+			},
+			{
+				image: ,
+				title: "Apakah kamu ingin makan steak?"
+			},
+			{
+				image: "like",
+				title: "Saya suka makan steak"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Pizza",
+		"slug": "pizza",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				image: ,
+				title: "Saya ingin makan pizza"
+			},
+			{
+				image: ,
+				title: "Saya tidak ingin makan pizza"
+			},
+			{
+				image: ,
+				title: "Apakah kamu ingin makan pizza?"
+			},
+			{
+				image: "like",
+				title: "Saya suka makan pizza"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Hamburger",
+		"slug": "hamburger",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				image: ,
+				title: "Saya ingin makan hamburger"
+			},
+			{
+				image: ,
+				title: "Saya tidak ingin makan hamburger"
+			},
+			{
+				image: ,
+				title: "Apakah kamu ingin makan hamburger?"
+			},
+			{
+				image: "like",
+				title: "Saya suka makan hamburger"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Kentang goreng",
+		"slug": "fries",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				image: ,
+				title: "Saya ingin makan kentang goreng"
+			},
+			{
+				image: ,
+				title: "Saya tidak ingin makan kentang goreng"
+			},
+			{
+				image: ,
+				title: "Apakah kamu ingin makan kentang goreng?"
+			},
+			{
+				image: "like",
+				title: "Saya suka makan kentang goreng"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Es krim",
+		"slug": "icecream",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				image: ,
+				title: "Saya ingin makan es krim"
+			},
+			{
+				image: ,
+				title: "Saya tidak ingin makan es krim"
+			},
+			{
+				image: ,
+				title: "Apakah kamu ingin makan es krim?"
+			},
+			{
+				image: "like",
+				title: "Saya suka makan es krim"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Kue",
+		"slug": "cookie",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				image: ,
+				title: "Saya ingin makan kue"
+			},
+			{
+				image: ,
+				title: "Saya tidak ingin makan kue"
+			},
+			{
+				image: ,
+				title: "Apakah kamu ingin makan kue?"
+			},
+			{
+				image: "like",
+				title: "Saya suka makan kue"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Sereal",
+		"slug": "cereal",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				image: ,
+				title: "Saya ingin makan sereal"
+			},
+			{
+				image: ,
+				title: "Saya tidak ingin makan sereal"
+			},
+			{
+				image: ,
+				title: "Apakah kamu ingin makan sereal?"
+			},
+			{
+				image: "like",
+				title: "Saya suka makan sereal"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Telur goreng",
+		"slug": "friedegg",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				image: ,
+				title: "Saya ingin makan telur goreng"
+			},
+			{
+				image: ,
+				title: "Saya tidak inign makan telur goreng"
+			},
+			{
+				image: ,
+				title: "Apakah kamu ingin makan telur goreng?"
+			},
+			{
+				image: "like",
+				title: "Saya suka makan telur goreng"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Telur rebus",
+		"slug": "boiledegg",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				image: ,
+				title: "Saya ingin makan telur rebus"
+			},
+			{
+				image: ,
+				title: "Saya tidak ingin makan telur rebus"
+			},
+			{
+				image: ,
+				title: "Apakah kamu ingin makan telur rebus?"
+			},
+			{
+				image: "like",
+				title: "Saya suka makan telur rebus"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Keju",
+		"slug": "cheese",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				image: ,
+				title: "Saya ingin makan keju"
+			},
+			{
+				image: ,
+				title: "Saya tidak ingin makan keju"
+			},
+			{
+				image: ,
+				title: "Apakah kamu ingin makan keju?"
+			},
+			{
+				image: "like",
+				title: "Saya suka makan keju"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ayam",
+		"slug": "chicken",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				image: ,
+				title: "Saya ingin makan ayam"
+			},
+			{
+				image: ,
+				title: "Saya tidak ingin makan ayam"
+			},
+			{
+				image: ,
+				title: "Apakah kamu ingin makan ayam?"
+			},
+			{
+				image: "like",
+				title: "Saya suka makan ayam"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Sandwich",
+		"slug": "sandwich",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				image: ,
+				title: "Saya ingin makan sandwich"
+			},
+			{
+				image: ,
+				title: "Saya tidak ingin makan sandwich"
+			},
+			{
+				image: ,
+				title: "Apakah kamu ingin makan sandwich?"
+			},
+			{
+				image: "like",
+				title: "Saya suka makan sandwich"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Salad",
+		"slug": "salad",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				image: ,
+				title: "Saya ingin makan salad"
+			},
+			{
+				image: ,
+				title: "Saya tidak ingin makan salad"
+			},
+			{
+				image: ,
+				title: "Apakah kamu ingin makan salad?"
+			},
+			{
+				image: "like",
+				title: "Saya suka makan salad"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Roti",
+		"slug": "bread",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				image: ,
+				title: "Saya ingin makan roti"
+			},
+			{
+				image: ,
+				title: "Saya tidak ingin makan roti"
+			},
+			{
+				image: ,
+				title: "Apakah kamu ingin makan roti?"
+			},
+			{
+				image: "like",
+				title: "Saya suka makan roti"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Wortel",
+		"slug": "carrot",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				image: ,
+				title: "Saya ingin makan wortel"
+			},
+			{
+				image: ,
+				title: "Saya tidak ingin makan wortel"
+			},
+			{
+				image: ,
+				title: "Apakah kamu ingin makan wortel?"
+			},
+			{
+				image: "like",
+				title: "Saya suka makan wortel"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Permen",
+		"slug": "candy",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				image: ,
+				title: "Saya ingin makan permen"
+			},
+			{
+				image: ,
+				title: "Saya tidak ingin makan permen"
+			},
+			{
+				image: ,
+				title: "Apakah kamu ingin makan permen?"
+			},
+			{
+				image: "like",
+				title: "Saya suka makan permen"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "cake",
+		"slug": "cake",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				image: ,
+				title: "Saya ingin makan cake"
+			},
+			{
+				image: ,
+				title: "Saya tidak ingin makan cake"
+			},
+			{
+				image: ,
+				title: "Apakah kamu ingin makan cake?"
+			},
+			{
+				image: "like",
+				title: "Saya suka makan cake"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Brokoli",
+		"slug": "broccoli",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				image: ,
+				title: "Saya ingin makan brokoli"
+			},
+			{
+				image: ,
+				title: "Saya tidak ingin makan brokoli"
+			},
+			{
+				image: ,
+				title: "Apakah kamu ingin makan brokoli?"
+			},
+			{
+				image: "like",
+				title: "Saya suka makan brokoli"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ceri",
+		"slug": "cherries",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				image: ,
+				title: "Saya ingin makan ceri"
+			},
+			{
+				image: ,
+				title: "Saya tidak ingin makan ceri"
+			},
+			{
+				image: ,
+				title: "Apakah kamu ingin makan ceri?"
+			},
+			{
+				image: "like",
+				title: "Saya suka makan ceri"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Kacang",
+		"slug": "beans",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				image: ,
+				title: "Saya ingin makan kacang"
+			},
+			{
+				image: ,
+				title: "Saya tidak ingin makan kacang"
+			},
+			{
+				image: ,
+				title: "Apakah kamu ingin makan kacang?"
+			},
+			{
+				image: "like",
+				title: "Saya suka makan kacang"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Pisang",
+		"slug": "banana",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				image: ,
+				title: "Saya ingin makan pisang"
+			},
+			{
+				image: ,
+				title: "Saya tidak ingin makan pisang"
+			},
+			{
+				image: ,
+				title: "Apakah kamu ingin makan pisang?"
+			},
+			{
+				image: "like",
+				title: "Saya suka makan pisang"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Coklat",
+		"slug": "chocolate",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				image: ,
+				title: "Saya ingin makan coklat"
+			},
+			{
+				image: ,
+				title: "Saya tidak ingin makan coklat"
+			},
+			{
+				image: ,
+				title: "Apakah kamu ingin makan coklat?"
+			},
+			{
+				image: "like",
+				title: "Saya suka makan coklat"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Minuman bersoda",
+		"slug": "coke",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				image: ,
+				title: "Saya ingin minum minuman bersoda"
+			},
+			{
+				image: ,
+				title: "Saya tidak ingin minum minuman bersoda"
+			},
+			{
+				image: ,
+				title: "Apakah kamu ingin minum minuman bersoda?"
+			},
+			{
+				image: "like",
+				title: "Saya suka drinking minuman bersoda"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Cupcake",
+		"slug": "cupcake",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				image: ,
+				title: "Saya ingin makan cupcake"
+			},
+			{
+				image: ,
+				title: "Saya tidak ingin makan cupcake"
+			},
+			{
+				image: ,
+				title: "Apakah kamu ingin makan cupcake?"
+			},
+			{
+				image: "like",
+				title: "Saya suka makan cupcake"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Donat",
+		"slug": "doughnut",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				image: ,
+				title: "Saya ingin makan donat"
+			},
+			{
+				image: ,
+				title: "Saya tidak ingin makan donat"
+			},
+			{
+				image: ,
+				title: "Apakah kamu ingin makan donat?"
+			},
+			{
+				image: "like",
+				title: "Saya suka makan donat"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ikan",
+		"slug": "fish",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				image: ,
+				title: "Saya ingin makan ikan"
+			},
+			{
+				image: ,
+				title: "Saya tidak ingin makan ikan"
+			},
+			{
+				image: ,
+				title: "Apakah kamu ingin makan ikan?"
+			},
+			{
+				image: "like",
+				title: "Saya suka makan ikan"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Sushi",
+		"slug": "sushi",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				image: ,
+				title: "Saya ingin makan sushi"
+			},
+			{
+				image: ,
+				title: "Saya tidak ingin makan sushi"
+			},
+			{
+				image: ,
+				title: "Apakah kamu ingin makan sushi?"
+			},
+			{
+				image: "like",
+				title: "Saya suka makan sushi"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Jagung",
+		"slug": "corn",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				image: ,
+				title: "Saya ingin makan jagung"
+			},
+			{
+				image: ,
+				title: "Saya tidak ingin makan jagung"
+			},
+			{
+				image: ,
+				title: "Apakah kamu ingin makan jagung?"
+			},
+			{
+				image: "like",
+				title: "Saya suka makan jagung"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Lemon",
+		"slug": "lemon",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				image: ,
+				title: "Saya ingin makan lemon"
+			},
+			{
+				image: ,
+				title: "Saya tidak ingin makan lemon"
+			},
+			{
+				image: ,
+				title: "Apakah kamu ingin makan lemon?"
+			},
+			{
+				image: "like",
+				title: "Saya suka makan lemon"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Mustard",
+		"slug": "mustard",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				image: ,
+				title: "Saya ingin mustard di makanan saya"
+			},
+			{
+				image: ,
+				title: "Saya tidak mau mustard"
+			},
+			{
+				image: ,
+				title: "Apakah kamu mau dengan mustard?"
+			},
+			{
+				image: "like",
+				title: "Saya suka menggunakan mustard di makanan saya"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Persik",
+		"slug": "peach",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				image: ,
+				title: "Saya ingin makan persik"
+			},
+			{
+				image: ,
+				title: "Saya tidak ingin makan persik"
+			},
+			{
+				image: ,
+				title: "Apakah kamu ingin makan persik?"
+			},
+			{
+				image: "like",
+				title: "Saya suka makan persik"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Nanas",
+		"slug": "pineapple",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				image: ,
+				title: "Saya ingin makan nanas"
+			},
+			{
+				image: ,
+				title: "Saya tidak ingin makan nanas"
+			},
+			{
+				image: ,
+				title: "Apakah kamu ingin makan nanas?"
+			},
+			{
+				image: "like",
+				title: "Saya suka makan nanas"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Raspberry",
+		"slug": "raspberry",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				image: ,
+				title: "Saya ingin makan raspberry"
+			},
+			{
+				image: ,
+				title: "Saya tidak ingin makan raspberry"
+			},
+			{
+				image: ,
+				title: "Apakah kamu ingin makan raspberry?"
+			},
+			{
+				image: "like",
+				title: "Saya suka makan raspberry"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Stroberi",
+		"slug": "strawberry",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				image: ,
+				title: "Saya ingin makan stroberi"
+			},
+			{
+				image: ,
+				title: "Saya tidak ingin makan stroberi"
+			},
+			{
+				image: ,
+				title: "Apakah kamu ingin makan stroberi?"
+			},
+			{
+				image: "like",
+				title: "Saya suka makan stroberi"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Semangka",
+		"slug": "watermelon",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				image: ,
+				title: "Saya ingin makan semangka"
+			},
+			{
+				image: ,
+				title: "Saya tidak ingin makan semangka"
+			},
+			{
+				image: ,
+				title: "Apakah kamu ingin makan semangka?"
+			},
+			{
+				image: "like",
+				title: "Saya suka makan semangka"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Anggur",
+		"slug": "grapes",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				image: ,
+				title: "Saya ingin makan anggur"
+			},
+			{
+				image: ,
+				title: "Saya tidak ingin makan anggur"
+			},
+			{
+				image: ,
+				title: "Apakah kamu ingin makan anggur?"
+			},
+			{
+				image: "like",
+				title: "Saya suka makan anggur"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Alpukat",
+		"slug": "avocado",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				image: ,
+				title: "Saya ingin makan alpukat"
+			},
+			{
+				image: ,
+				title: "Saya tidak ingin makan alpukat"
+			},
+			{
+				image: ,
+				title: "Apakah kamu ingin makan alpukat?"
+			},
+			{
+				image: "like",
+				title: "Saya suka makan alpukat"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Nasi",
+		"slug": "rice",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				image: ,
+				title: "Saya ingin makan nasi"
+			},
+			{
+				image: ,
+				title: "Saya tidak ingin makan nasi"
+			},
+			{
+				image: ,
+				title: "Apakah kamu ingin makan nasi?"
+			},
+			{
+				image: "like",
+				title: "Saya suka makan nasi"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Spageti",
+		"slug": "spaguetti",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				image: ,
+				title: "Saya ingin makan spageti"
+			},
+			{
+				image: ,
+				title: "Saya tidak ingin makan spageti"
+			},
+			{
+				image: ,
+				title: "Apakah kamu ingin makan spageti?"
+			},
+			{
+				image: "like",
+				title: "Saya suka makan spageti"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Susu",
+		"slug": "milk",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				image: ,
+				title: "Saya ingin minum susu"
+			},
+			{
+				image: ,
+				title: "Saya tidak ingin minum susu"
+			},
+			{
+				image: ,
+				title: "Apakah kamu ingin minum susu?"
+			},
+			{
+				image: "like",
+				title: "Saya suka minum susu"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Teh",
+		"slug": "tea",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				image: ,
+				title: "Saya ingin minum teh"
+			},
+			{
+				image: ,
+				title: "Saya tidak ingin minum teh"
+			},
+			{
+				image: ,
+				title: "Apakah kamu ingin minum teh?"
+			},
+			{
+				image: "like",
+				title: "Saya suka minum teh"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Madu",
+		"slug": "honey",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				image: ,
+				title: "Saya ingin makan madu"
+			},
+			{
+				image: ,
+				title: "Saya tidak ingin makan madu"
+			},
+			{
+				image: ,
+				title: "Apakah kamu ingin makan madu?"
+			},
+			{
+				image: "like",
+				title: "Saya suka makan madu"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Kebab",
+		"slug": "kebab",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				image: ,
+				title: "Saya ingin makan kebab"
+			},
+			{
+				image: ,
+				title: "Saya tidak ingin makan kebab"
+			},
+			{
+				image: ,
+				title: "Apakah kamu ingin makan kebab?"
+			},
+			{
+				image: "like",
+				title: "Saya suka makan kebab"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Taco",
+		"slug": "taco",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				image: ,
+				title: "Saya ingin makan taco"
+			},
+			{
+				image: ,
+				title: "Saya tidak ingin makan taco"
+			},
+			{
+				image: ,
+				title: "Apakah kamu ingin makan taco?"
+			},
+			{
+				image: "like",
+				title: "Saya suka makan taco"
+			}
+		]
+	},

@@ -25,7 +25,7 @@ const CardBoxGrup = (props) => {
       />
       <Text
         style={{
-          marginTop: 5,
+          marginTop: 10,
           color: 'black',
           fontSize: fs(11),
           textAlign: 'center',
