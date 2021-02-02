@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, Component} from 'react';
 import {
   ScrollView,
   StyleSheet,
@@ -7,6 +7,8 @@ import {
   View,
   Image,
   Dimensions,
+  BackHandler,
+  Alert,
 } from 'react-native';
 import {
   ActivitiesScreen,
@@ -42,6 +44,7 @@ import {
   Logo,
 } from '../../assets/Images';
 import {hp, wp} from '../../components/responsive';
+import {useEffect} from 'react';
 
 const TabBox = (props) => {
   const onNavigate = () => {
@@ -62,6 +65,28 @@ const TabBox = (props) => {
     </TouchableOpacity>
   );
 };
+// useEffect(() => {
+//   const backAction = () => {
+//     Alert.alert(
+//       'Perhatian',
+//       'Tutup Aplikasi Beeboo?'[
+//         ({
+//           text: 'Batal',
+//           onPress: () => null,
+//           style: 'Cancel',
+//         },
+//         {text: 'Ya', onPress: () => BackHandler.exitApp()})
+//       ],
+//     );
+//     return true;
+//   };
+//   const backHandler = BackHandler.addEventListener(
+//     'hardwareBackPress',
+//     backAction,
+//   );
+
+//   return () => backHandler.remove();
+// }, [backAction, BackHandler]);
 
 export default function Home() {
   const [screen, setScreen] = useState('Aktivitas');
@@ -162,7 +187,7 @@ const styles = StyleSheet.create({
   tabContainer: {
     flex: 1,
     backgroundColor: WARNA_TAB,
-    shadowColor: '#000',
+    shadowColor: '#000000',
     shadowOffset: {
       width: 0,
       height: 12,

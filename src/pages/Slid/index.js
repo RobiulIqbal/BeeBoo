@@ -7,8 +7,8 @@ import {WARNA_SLIDE1, WARNA_SLIDE2, WARNA_SLIDE3} from '../../utils/warna';
 const Slidone = ({navigation}) => {
   return (
     <Onboarding
-      onDone={() => navigation.navigate('Home')}
-      onSkip={() => navigation.navigate('Home')}
+      onDone={() => navigation.replace('Home')}
+      onSkip={() => navigation.replace('Home')}
       pages={[
         {
           backgroundColor: WARNA_SLIDE1,
