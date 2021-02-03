@@ -114,7 +114,7 @@ const data = [
     image: TwoPintar,
     content: [
       {image: TwoPintar, title: 'Saya ingin Pintar'},
-      {image: TwoPintar, title: 'Apakah Ingin Pintar?'},
+      {image: TwoPintar, title: 'Bagaimana Cara Pintar?'},
     ],
   },
   {

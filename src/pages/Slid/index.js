@@ -9,6 +9,8 @@ const Slidone = ({navigation}) => {
     <Onboarding
       onDone={() => navigation.replace('Home')}
       onSkip={() => navigation.replace('Home')}
+      titleStyles={{fontFamily: 'Assistant-Bold'}}
+      subTitleStyles={{fontFamily: 'Assistant-SemiBold'}}
       pages={[
         {
           backgroundColor: WARNA_SLIDE1,
@@ -37,15 +39,15 @@ export default Slidone;
 
 const styles = StyleSheet.create({
   slide1: {
-    width: 220,
+    width: '50%',
     height: 222,
   },
   slide2: {
-    width: 220,
+    width: '50%',
     height: 222,
   },
   slide3: {
-    width: 220,
+    width: '50%',
     height: 222,
   },
 });

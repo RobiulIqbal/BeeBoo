@@ -33,7 +33,7 @@ const styles = StyleSheet.create({
     // backgroundColor: '#ecf0f1',
   },
   setupone: {
-    fontFamily: 'PottaOne-Reguler',
+    fontFamily: 'PottaOne-Regular',
     marginTop: 20,
     fontSize: 25,
   },

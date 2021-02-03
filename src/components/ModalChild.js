@@ -36,7 +36,7 @@ const ModalChild = (props) => {
                       marginTop: 15,
                       fontSize: fs(11),
                       textAlign: 'center',
-                      fontWeight: 'normal',
+                      fontFamily: 'Poppins-SemiBold',
                     }}>
                     {data.title}
                   </Text>
@@ -77,6 +77,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     marginTop: 30,
     marginBottom: 20,
+    padding: 10,
   },
   CardModalContainer: {
     height: wp(40),
@@ -100,7 +101,7 @@ const styles = StyleSheet.create({
   ContainerButton: {
     justifyContent: 'center',
     alignItems: 'center',
-    marginTop: 70,
+    marginTop: 50,
   },
   buttonback: {
     backgroundColor: '#2BD9F5',

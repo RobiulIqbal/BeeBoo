@@ -43,7 +43,7 @@ import {
   IconPlace,
   Logo,
 } from '../../assets/Images';
-import {hp, wp} from '../../components/responsive';
+import {fs, hp, wp} from '../../components/responsive';
 import {useEffect} from 'react';
 
 const TabBox = (props) => {
@@ -59,7 +59,13 @@ const TabBox = (props) => {
         style={{width: '60%', height: '60%'}}
         resizeMode={'contain'}
       />
-      <Text style={{marginTop: 5, color: 'white', fontWeight: 'bold'}}>
+      <Text
+        style={{
+          marginTop: 5,
+          color: 'white',
+          fontFamily: 'Poppins-ExtraBold',
+          fontSize: fs(18),
+        }}>
         {props.title}
       </Text>
     </TouchableOpacity>

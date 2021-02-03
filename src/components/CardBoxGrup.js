@@ -25,10 +25,11 @@ const CardBoxGrup = (props) => {
       />
       <Text
         style={{
-          marginTop: 10,
+          marginTop: 15,
           color: 'black',
           fontSize: fs(11),
           textAlign: 'center',
+          fontFamily: 'Poppins-SemiBold',
         }}>
         {props.title}
       </Text>
