@@ -28,7 +28,7 @@ const ModalChild = (props) => {
                   style={styles.CardModalContainer}>
                   <Image
                     source={data.image}
-                    style={{width: '60%', height: '60%', flexWrap: 'wrap'}}
+                    style={{width: wp(15), height: wp(12), flexWrap: 'wrap'}}
                     resizeMode="contain"
                   />
                   <Text
@@ -80,8 +80,8 @@ const styles = StyleSheet.create({
     padding: 10,
   },
   CardModalContainer: {
-    height: wp(40),
-    width: wp(40),
+    height: wp(30),
+    width: wp(30),
     marginLeft: 5,
     marginRight: 5,
     marginTop: 7,
