@@ -348,8 +348,8 @@ const data = [
     ],
   },
   {
-    title: 'Hambureger',
-    voice: 'Hambureger',
+    title: 'Hamburger',
+    voice: 'Hamburger',
     image: SeHamburger,
     content: [
       {
