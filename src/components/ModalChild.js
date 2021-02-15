@@ -1,21 +1,17 @@
 import React from 'react';
-import {
-  StyleSheet,
-  Text,
-  View,
-  Image,
-  Button,
-  TouchableOpacity,
-} from 'react-native';
+import {Image, StyleSheet, Text, TouchableOpacity, View} from 'react-native';
 import Modal from 'react-native-modal';
 import Tts from 'react-native-tts';
-import {back, Logo, OneGame} from '../assets/Images';
-import {WARNA_CARD2, WARNA_TAB} from '../utils/warna';
+import {back} from '../assets/Images';
+import {WARNA_TAB} from '../utils/warna';
 import {fs, wp} from './responsive';
 
 const ModalChild = (props) => {
   return (
-    <Modal isVisible={props.isVisible}>
+    <Modal
+      isVisible={props.isVisible}
+      animationType="slide"
+      onRequestClose={props.onClose}>
       <View style={styles.ModalContainer}>
         <Text style={styles.text}>Pilih Salah Satu! </Text>
         <View style={styles.ContentContainer}>
@@ -28,7 +24,7 @@ const ModalChild = (props) => {
                   style={styles.CardModalContainer}>
                   <Image
                     source={data.image}
-                    style={{width: wp(20), height: wp(20)}}
+                    style={{width: wp(15), height: wp(12)}}
                     resizeMode="contain"
                   />
                   <Text
@@ -76,12 +72,12 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     marginTop: 30,
-    marginBottom: 20,
+    marginBottom: 10,
     padding: 10,
   },
   CardModalContainer: {
-    height: wp(35),
-    width: wp(35),
+    height: wp(40),
+    width: wp(30),
     marginLeft: 5,
     marginRight: 5,
     marginTop: 7,
@@ -101,23 +97,23 @@ const styles = StyleSheet.create({
   ContainerButton: {
     justifyContent: 'center',
     alignItems: 'center',
-    marginTop: 50,
-  },
-  buttonback: {
-    backgroundColor: '#2BD9F5',
-    borderRadius: 25,
-    height: 75,
-    width: 75,
-    justifyContent: 'center',
-    alignItems: 'center',
-    flexDirection: 'column',
-  },
-  textButton: {
-    color: 'white',
-    textAlign: 'center',
-    fontSize: 13,
-    fontWeight: 'bold',
     marginTop: 10,
   },
+  // buttonback: {
+  //   backgroundColor: '#2BD9F5',
+  //   borderRadius: 25,
+  //   height: 75,
+  //   width: 75,
+  //   justifyContent: 'center',
+  //   alignItems: 'center',
+  //   flexDirection: 'column',
+  // },
+  // textButton: {
+  //   color: 'white',
+  //   textAlign: 'center',
+  //   fontSize: 13,
+  //   fontWeight: 'bold',
+  //   marginTop: 10,
+  // },
 });
 //npx react-native link

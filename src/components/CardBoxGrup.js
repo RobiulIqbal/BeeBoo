@@ -1,7 +1,7 @@
 import React from 'react';
-import {StyleSheet, Text, TouchableOpacity, Image} from 'react-native';
+import {Image, StyleSheet, Text, TouchableOpacity} from 'react-native';
 import Tts from 'react-native-tts';
-import {fs, hp, wp} from './responsive';
+import {fs, wp} from './responsive';
 
 const CardBoxGrup = (props) => {
   const handleVoice = () => {

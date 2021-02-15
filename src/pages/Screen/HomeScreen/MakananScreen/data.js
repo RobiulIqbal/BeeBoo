@@ -354,19 +354,19 @@ const data = [
     content: [
       {
         image: SeHamburger,
-        title: 'Saya ingin makan Hambureger',
+        title: 'Saya ingin makan Hamburger',
       },
       {
         image: SeHamburger,
-        title: 'Saya tidak ingin makan Hambureger',
+        title: 'Saya tidak ingin makan Hamburger',
       },
       {
         image: SeHamburger,
-        title: 'Apakah kamu ingin makan Hambureger?',
+        title: 'Apakah kamu ingin makan Hamburger?',
       },
       {
         image: SeHamburger,
-        title: 'Saya suka makan Hambureger',
+        title: 'Saya suka makan Hamburger',
       },
     ],
   },

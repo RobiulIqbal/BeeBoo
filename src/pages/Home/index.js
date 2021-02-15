@@ -1,27 +1,22 @@
-import React, {useState, Component} from 'react';
+import React, {useState} from 'react';
 import {
+  Image,
   ScrollView,
   StyleSheet,
   Text,
   TouchableOpacity,
   View,
-  Image,
-  Dimensions,
-  BackHandler,
-  Alert,
 } from 'react-native';
 import {
-  ActivitiesScreen,
-  FeelingsScreen,
-  BuahScreen,
-  GeneralScreen,
-  NumbersScreen,
-  PeopleScreen,
-  SchoolScreen,
-  PlaceScreen,
-  MakananScreen,
-  MinumanScreen,
-} from '../Screen';
+  IconActivities,
+  IconFeelings,
+  IconFoods,
+  IconGeneral,
+  IconNumbers,
+  IconPeople,
+  IconSchool,
+} from '../../assets/Images';
+import {fs, wp} from '../../components/responsive';
 import {
   WARNA_CARD1,
   WARNA_CARD2,
@@ -33,18 +28,17 @@ import {
   WARNA_TAB,
 } from '../../utils/warna';
 import {
-  IconActivities,
-  IconFeelings,
-  IconFoods,
-  IconGeneral,
-  IconNumbers,
-  IconPeople,
-  IconSchool,
-  IconPlace,
-  Logo,
-} from '../../assets/Images';
-import {fs, hp, wp} from '../../components/responsive';
-import {useEffect} from 'react';
+  ActivitiesScreen,
+  BuahScreen,
+  FeelingsScreen,
+  GeneralScreen,
+  MakananScreen,
+  MinumanScreen,
+  NumbersScreen,
+  PeopleScreen,
+  PlaceScreen,
+  SchoolScreen,
+} from '../Screen';
 
 const TabBox = (props) => {
   const onNavigate = () => {
@@ -71,28 +65,6 @@ const TabBox = (props) => {
     </TouchableOpacity>
   );
 };
-// useEffect(() => {
-//   const backAction = () => {
-//     Alert.alert(
-//       'Perhatian',
-//       'Tutup Aplikasi Beeboo?'[
-//         ({
-//           text: 'Batal',
-//           onPress: () => null,
-//           style: 'Cancel',
-//         },
-//         {text: 'Ya', onPress: () => BackHandler.exitApp()})
-//       ],
-//     );
-//     return true;
-//   };
-//   const backHandler = BackHandler.addEventListener(
-//     'hardwareBackPress',
-//     backAction,
-//   );
-
-//   return () => backHandler.remove();
-// }, [backAction, BackHandler]);
 
 export default function Home() {
   const [screen, setScreen] = useState('Aktivitas');

@@ -1,6 +1,6 @@
-import React from 'react';
-import {StyleSheet, Text, View} from 'react-native';
 import {createStackNavigator} from '@react-navigation/stack';
+import React from 'react';
+import {StyleSheet} from 'react-native';
 import {Home, Slidone, Splash} from '../pages';
 
 const Stack = createStackNavigator();

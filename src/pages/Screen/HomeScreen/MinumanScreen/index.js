@@ -1,9 +1,8 @@
 import React, {useState} from 'react';
-import {StyleSheet, View, Text, Button, Image} from 'react-native';
-
+import {StyleSheet, View} from 'react-native';
 import CardBoxGrup from '../../../../components/CardBoxGrup';
-import {WARNA_TAB} from '../../../../utils/warna';
 import ModalChild from '../../../../components/ModalChild';
+import {WARNA_TAB} from '../../../../utils/warna';
 import datas from './data';
 
 export default function ActivitiesScreen() {

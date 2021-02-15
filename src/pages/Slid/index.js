@@ -1,7 +1,7 @@
 import React from 'react';
-import {StyleSheet, Image, Text, View, Button} from 'react-native';
+import {Image, StyleSheet} from 'react-native';
 import Onboarding from 'react-native-onboarding-swiper';
-import {Belajar, Jalan, Baca} from '../../assets';
+import {Baca, Belajar, Jalan} from '../../assets';
 import {WARNA_SLIDE1, WARNA_SLIDE2, WARNA_SLIDE3} from '../../utils/warna';
 
 const Slidone = ({navigation}) => {

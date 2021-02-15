@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react';
-import {Image, ImageBackground, StyleSheet, Text, View} from 'react-native';
+import {Image, StyleSheet, Text, View} from 'react-native';
 import {Logo} from '../../assets';
-import {WARNA_CARD1, WARNA_DASAR, WARNA_CARD2} from '../../utils/warna';
+import {WARNA_CARD2} from '../../utils/warna';
 
 const Splash = ({navigation}) => {
   useEffect(() => {

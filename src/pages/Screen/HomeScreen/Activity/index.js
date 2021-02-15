@@ -1,12 +1,11 @@
 import React, {useState} from 'react';
-import {StyleSheet, View, Text, Button, Image} from 'react-native';
-
+import {StyleSheet, View} from 'react-native';
 import CardBoxGrup from '../../../../components/CardBoxGrup';
-import {WARNA_TAB} from '../../../../utils/warna';
 import ModalChild from '../../../../components/ModalChild';
+import {WARNA_TAB} from '../../../../utils/warna';
 import datas from './data';
 
-export default function ActivitiesScreen() {
+export default function ActivitiesScreen(navigation) {
   const [modal, setModal] = useState(false);
   const [content, setContent] = useState(null);
 
@@ -33,7 +32,12 @@ export default function ActivitiesScreen() {
           ))}
         </View>
       </View>
-      <ModalChild isVisible={modal} content={content} onClose={onCloseModal} />
+      <ModalChild
+        isVisible={modal}
+        content={content}
+        onClose={onCloseModal}
+        // navigation={navigate('Home')}
+      />
     </>
   );
 }
