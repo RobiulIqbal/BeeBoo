@@ -114,12 +114,12 @@ const data = [
     ],
   },
   {
-    title: 'Skating ',
-    voice: 'Sketing',
+    title: 'Bulu Tangkis',
+    voice: 'Bulu tangkis',
     image: OneSkate,
     content: [
-      {image: OneSkate, title: 'Saya suka skating'},
-      {image: OneSkate, title: 'Apakah kamu bisa bermain skating'},
+      {image: OneSkate, title: 'Saya suka Bulu tangkis'},
+      {image: OneSkate, title: 'Apakah kamu Bulu tangkis'},
     ],
   },
   {

@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {StyleSheet, View} from 'react-native';
+import {ScrollView, StyleSheet, View} from 'react-native';
 import CardBoxGrup from '../../../../components/CardBoxGrup';
 import ModalChild from '../../../../components/ModalChild';
 import {WARNA_TAB} from '../../../../utils/warna';
@@ -32,7 +32,13 @@ export default function ActivitiesScreen() {
           ))}
         </View>
       </View>
-      <ModalChild isVisible={modal} content={content} onClose={onCloseModal} />
+      <ScrollView>
+        <ModalChild
+          isVisible={modal}
+          content={content}
+          onClose={onCloseModal}
+        />
+      </ScrollView>
     </>
   );
 }

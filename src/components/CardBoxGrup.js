@@ -20,16 +20,16 @@ const CardBoxGrup = (props) => {
       style={[styles.tabCardBoxContainer, {backgroundColor: props.color}]}>
       <Image
         source={props.image}
-        style={{width: '60%', height: '60%'}}
+        style={{width: '70%', height: '70%'}}
         resizeMode={'contain'}
       />
       <Text
         style={{
-          marginTop: 15,
+          marginTop: 5,
           color: 'black',
-          fontSize: fs(11),
+          fontSize: fs(18),
           textAlign: 'center',
-          fontFamily: 'Poppins-SemiBold',
+          fontFamily: 'Poppins-Bold',
         }}>
         {props.title}
       </Text>
@@ -45,8 +45,8 @@ export default CardBoxGrup;
 
 const styles = StyleSheet.create({
   tabCardBoxContainer: {
-    height: wp(30),
-    width: wp(30),
+    height: wp(45),
+    width: wp(47),
     marginLeft: 5,
     marginRight: 5,
     marginTop: 7,

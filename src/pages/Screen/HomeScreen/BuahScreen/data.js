@@ -343,21 +343,21 @@ const data = [
     ],
   },
   {
-    title: 'Raspheberry',
-    voice: 'Raspheberry',
+    title: 'Bery',
+    voice: 'Bery',
     image: TuRaspberry,
     content: [
       {
         image: TuRaspberry,
-        title: 'Saya ingin makan Raspheberry',
+        title: 'Saya ingin makan Bery',
       },
       {
         image: TuRaspberry,
-        title: 'Saya tidak ingin makan Raspheberry',
+        title: 'Saya tidak ingin makan Bery',
       },
       {
         image: TuRaspberry,
-        title: 'Apakah kamu ingin makan Raspheberry?',
+        title: 'Apakah kamu ingin makan Bery?',
       },
       {
         image: TuRaspberry,

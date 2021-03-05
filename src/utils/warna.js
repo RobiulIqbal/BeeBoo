@@ -3,6 +3,7 @@ export const WARNA_SLIDE1 = '#69e2ff';
 export const WARNA_SLIDE2 = '#00b0ff';
 export const WARNA_SLIDE3 = '#2962ff';
 export const WARNA_TAB = '#E5E5E5';
+export const WARNA_TAB1 = '#00b0ff';
 export const WARNA_CARD1 = '#93B4DB';
 export const WARNA_CARD2 = '#8CC7D9';
 export const WARNA_CARD3 = '#9B8EC3';

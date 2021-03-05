@@ -190,10 +190,6 @@ const data = [
       },
       {
         image: MaFriends,
-        title: 'saya tidak menyukai teman saya',
-      },
-      {
-        image: MaFriends,
         title: 'Saya ingin bertemu teman saya',
       },
       {

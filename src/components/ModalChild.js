@@ -1,5 +1,12 @@
 import React from 'react';
-import {Image, StyleSheet, Text, TouchableOpacity, View} from 'react-native';
+import {
+  Image,
+  ScrollView,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  View,
+} from 'react-native';
 import Modal from 'react-native-modal';
 import Tts from 'react-native-tts';
 import {back} from '../assets/Images';
@@ -8,51 +15,55 @@ import {fs, wp} from './responsive';
 
 const ModalChild = (props) => {
   return (
-    <Modal
-      isVisible={props.isVisible}
-      animationType="slide"
-      onRequestClose={props.onClose}>
-      <View style={styles.ModalContainer}>
-        <Text style={styles.text}>Pilih Salah Satu! </Text>
-        <View style={styles.ContentContainer}>
-          {props.content &&
-            props.content.map((data, i) => {
-              return (
-                <TouchableOpacity
-                  key={i}
-                  onPress={() => Tts.speak(data.title)}
-                  style={styles.CardModalContainer}>
-                  <Image
-                    source={data.image}
-                    style={{width: wp(15), height: wp(12)}}
-                    resizeMode="contain"
-                  />
-                  <Text
-                    style={{
-                      marginTop: 15,
-                      fontSize: fs(11),
-                      textAlign: 'center',
-                      fontFamily: 'Poppins-SemiBold',
-                    }}>
-                    {data.title}
-                  </Text>
-                </TouchableOpacity>
-              );
-            })}
+    <ScrollView>
+      <Modal
+        isVisible={props.isVisible}
+        animationType="slide"
+        onRequestClose={props.onClose}>
+        <View style={styles.ModalContainer}>
+          <Text style={styles.text}>Pilih Salah Satu! </Text>
+          <ScrollView>
+            <View style={styles.ContentContainer}>
+              {props.content &&
+                props.content.map((data, i) => {
+                  return (
+                    <TouchableOpacity
+                      key={i}
+                      onPress={() => Tts.speak(data.title)}
+                      style={styles.CardModalContainer}>
+                      <Image
+                        source={data.image}
+                        style={{width: wp(25), height: wp(25)}}
+                        resizeMode="contain"
+                      />
+                      <Text
+                        style={{
+                          marginTop: 15,
+                          fontSize: fs(13),
+                          textAlign: 'center',
+                          fontFamily: 'Poppins-Bold',
+                        }}>
+                        {data.title}
+                      </Text>
+                    </TouchableOpacity>
+                  );
+                })}
+            </View>
+          </ScrollView>
         </View>
-      </View>
-      <View style={styles.ContainerButton}>
-        <TouchableOpacity onPress={props.onClose} style={styles.buttonback}>
-          <Image
-            source={back}
-            style={{width: 40, height: 40}}
-            resizeMode="contain"
-          />
-          {/* <Text style={styles.textButton}>KEMBALI</Text> */}
-        </TouchableOpacity>
-      </View>
-      {/* <Button title="Close Modal" onPress={props.onClose} /> */}
-    </Modal>
+        <View style={styles.ContainerButton}>
+          <TouchableOpacity onPress={props.onClose} style={styles.buttonback}>
+            <Image
+              source={back}
+              style={{width: 40, height: 40}}
+              resizeMode="contain"
+            />
+            {/* <Text style={styles.textButton}>KEMBALI</Text> */}
+          </TouchableOpacity>
+        </View>
+        {/* <Button title="Close Modal" onPress={props.onClose} /> */}
+      </Modal>
+    </ScrollView>
   );
 };
 
@@ -71,13 +82,13 @@ const styles = StyleSheet.create({
     flexWrap: 'wrap',
     justifyContent: 'center',
     alignItems: 'center',
-    marginTop: 30,
+    marginTop: 5,
     marginBottom: 10,
     padding: 10,
   },
   CardModalContainer: {
-    height: wp(40),
-    width: wp(30),
+    height: wp(52),
+    width: wp(35),
     marginLeft: 5,
     marginRight: 5,
     marginTop: 7,

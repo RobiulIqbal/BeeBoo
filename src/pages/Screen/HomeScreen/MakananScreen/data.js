@@ -371,25 +371,25 @@ const data = [
     ],
   },
   {
-    title: 'Kebab',
-    voice: 'Kebab',
+    title: 'Sate',
+    voice: 'Sate',
     image: SeKebab,
     content: [
       {
         image: SeKebab,
-        title: 'Saya ingin makan Kebab',
+        title: 'Saya ingin makan Sate',
       },
       {
         image: SeKebab,
-        title: 'Saya tidak ingin makan Kebab',
+        title: 'Saya tidak ingin makan Sate',
       },
       {
         image: SeKebab,
-        title: 'Apakah kamu ingin makan Kebab?',
+        title: 'Apakah kamu ingin makan Sate?',
       },
       {
         image: SeKebab,
-        title: 'Saya suka makan Kebab',
+        title: 'Saya suka makan Sate',
       },
     ],
   },

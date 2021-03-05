@@ -21,6 +21,7 @@ import SeMie from '../Makanan/spaguetti.png';
 import SeDaging from '../Makanan/steak.png';
 import SeTerangBulan from '../Makanan/sandwich.png';
 import SeMartabak from '../Makanan/taco.png';
+import IconMakan from '../Makanan/makan.png';
 
 export {
   SeTelur,
@@ -46,4 +47,5 @@ export {
   SeDaging,
   SeTerangBulan,
   SeMartabak,
+  IconMakan,
 };

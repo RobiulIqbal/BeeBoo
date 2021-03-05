@@ -29,7 +29,7 @@ const styles = StyleSheet.create({
   },
   logo: {
     width: 220,
-    height: 222,
+    height: 220,
     // backgroundColor: '#ecf0f1',
   },
   setupone: {

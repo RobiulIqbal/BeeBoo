@@ -15,12 +15,12 @@ import {
 
 const data = [
   {
-    title: 'Bahagia',
-    voice: 'Bahagia',
+    title: 'Guru',
+    voice: 'Guru',
     image: NamTeacher,
     content: [
-      {image: NamTeacher, title: 'Saya merasa bahagia'},
-      {image: NamTeacher, title: 'Apakah kamu merasa bahagia?'},
+      {image: NamTeacher, title: 'Saya Menyukai Guru'},
+      {image: NamTeacher, title: 'Saya Ingin Bertemu Guru'},
     ],
   },
   {
@@ -81,13 +81,26 @@ const data = [
         image: NamBlack,
         title: 'Tulis di Papan Tulis',
       },
+      {
+        image: NamBlack,
+        title: 'Saya Menulis di papan tulis',
+      },
     ],
   },
   {
     title: 'Pelajaran',
     voice: 'Pelajaran',
     image: NamLesson,
-    content: [],
+    content: [
+      {
+        image: NamLesson,
+        title: 'Saya Suka Pelajaran Ini',
+      },
+      {
+        image: NamLesson,
+        title: 'Saya sulit Memahami Pelajaran itu!',
+      },
+    ],
   },
   {
     title: 'Diam',

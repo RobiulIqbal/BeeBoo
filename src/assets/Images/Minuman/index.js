@@ -10,6 +10,7 @@ import BeJus from '../Minuman/jus.png';
 import BeKopi from '../Minuman/kopi.png';
 import BeRonde from '../Minuman/ronde.png';
 import BeSop from '../Minuman/sop.png';
+import Iconminum from '../Minuman/minum.png';
 
 export {
   BeCola,
@@ -24,4 +25,5 @@ export {
   BeTeh,
   BeAirGelas,
   BeAir,
+  Iconminum,
 };

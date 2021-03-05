@@ -60,11 +60,11 @@ const data = [
     voice: 'Dapur',
     image: DeDapur,
   },
-  {
-    title: 'Gereja',
-    voice: 'Gereja',
-    image: DeGereja,
-  },
+  // {
+  //   title: 'Gereja',
+  //   voice: 'Gereja',
+  //   image: DeGereja,
+  // },
   {
     title: 'Halte',
     voice: 'Halte',
@@ -96,13 +96,13 @@ const data = [
     image: DePasar,
   },
   {
-    title: 'Perpus',
-    voice: 'Perpus',
+    title: 'Perpustakaan',
+    voice: 'Perpustakaan',
     image: DePerpus,
   },
   {
-    title: 'Pom',
-    voice: 'Pom',
+    title: 'Pom Bensin',
+    voice: 'Pom Bensin',
     image: DePom,
   },
   {
@@ -111,8 +111,8 @@ const data = [
     image: DeRumah,
   },
   {
-    title: 'RumahSakit',
-    voice: 'RumahSakit',
+    title: 'Rumah Sakit',
+    voice: 'Rumah Sakit',
     image: DeRumahSakit,
   },
   {
